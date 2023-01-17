@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-string greeting = "Hello";
+var greeting = "Hello";
 Console.WriteLine(greeting);
 Console.WriteLine("What is your name?");
-string name = Console.ReadLine();
-Console.WriteLine("Hello there, " + name);
+var name = Console.ReadLine();
+Console.WriteLine($"Hello there, {name}. Nice to meet you.");
